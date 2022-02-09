@@ -22,7 +22,7 @@ It is a Maven Project For Automating Flipkart, Project performed in JDK-11 using
 ## How to run
 
 - Clone repo from the github link
-- gitHub link :- **https://github.com/ssssssssssssssss/Flipkart_Automation**
+- gitHub link :- **https://github.com/Anujsewani/FlipkartAutomation**
 - run RunAssignment.bat
 
 ## Important Note
