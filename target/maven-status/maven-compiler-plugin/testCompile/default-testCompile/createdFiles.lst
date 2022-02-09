@@ -1,0 +1,7 @@
+com\SeleniumExitTest\tests\BaseTest.class
+com\SeleniumExitTest\tests\HomeTest.class
+com\SeleniumExitTest\tests\LoginTest.class
+com\SeleniumExitTest\tests\AddToCartTest.class
+com\SeleniumExitTest\tests\LogoutTest.class
+com\SeleniumExitTest\utils\CommonUtils.class
+com\SeleniumExitTest\utils\ReadDataFromExcel.class

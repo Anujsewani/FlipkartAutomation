@@ -1,0 +1,213 @@
+2022-02-09 21:22:36,747  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:22:36,753  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogoutPageData And For Test Case whenUserClickLogoutButton
+ 2022-02-09 21:22:36,757  INFO [main] BaseTest:27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+ 2022-02-09 21:22:36,758  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:22:36,759  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:22:36,760  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:22:36,761  INFO [main] BaseTest:27 - TestCaseName : whenUserClickLogoutButton
+ 2022-02-09 21:22:36,761  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:22:36,763  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:22:57,446  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:22:57,449  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersValidMobileNumberAndValidPassword
+ 2022-02-09 21:22:57,450  INFO [main] BaseTest:27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+ 2022-02-09 21:22:57,451  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:22:57,452  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:22:57,453  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:22:57,454  INFO [main] BaseTest:27 - TestCaseName : whenUserEntersValidMobileNumberAndValidPassword
+ 2022-02-09 21:22:57,459  INFO [main] BaseTest:27 - Date : 29-May-2021
+ 2022-02-09 21:22:57,461  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:22:57,462  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:00,507  INFO [main] BaseTest:52 - login button was clicked
+ 2022-02-09 21:23:09,092  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:09,093  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersInvalidMobileNumberAndValidPassword
+ 2022-02-09 21:23:09,094  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:23:09,095  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:23:09,096  INFO [main] BaseTest:27 - Message : Your username or password is incorrect
+ 2022-02-09 21:23:09,097  INFO [main] BaseTest:27 - Username : 9461164813
+ 2022-02-09 21:23:09,098  INFO [main] BaseTest:27 - TestCaseName : whenUserEntersInvalidMobileNumberAndValidPassword
+ 2022-02-09 21:23:09,100  INFO [main] BaseTest:27 - Date : 17-June-2021
+ 2022-02-09 21:23:09,101  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:23:09,102  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:27,487  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:27,490  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersValidMobileNumberAndInvalidPassword
+ 2022-02-09 21:23:27,491  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:23:27,492  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:23:27,495  INFO [main] BaseTest:27 - Message : Your username or password is incorrect
+ 2022-02-09 21:23:27,497  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:23:27,500  INFO [main] BaseTest:27 - TestCaseName : whenUserEntersValidMobileNumberAndInvalidPassword
+ 2022-02-09 21:23:27,501  INFO [main] BaseTest:27 - Date : 29-May-2021
+ 2022-02-09 21:23:27,503  INFO [main] BaseTest:27 - Password : chiya
+ 2022-02-09 21:23:27,504  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:34,158  INFO [main] BaseTest:131 - login button was clicked
+ 2022-02-09 21:23:40,485  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:40,487  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersEmptyMobileNumberAndEmptyPassword
+ 2022-02-09 21:23:40,489  INFO [main] BaseTest:27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+ 2022-02-09 21:23:40,490  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:23:40,490  INFO [main] BaseTest:27 - Execution Required : no
+ 2022-02-09 21:23:40,491  INFO [main] BaseTest:27 - TestCaseName : whenUserEntersEmptyMobileNumberAndEmptyPassword
+ 2022-02-09 21:23:40,491  INFO [main] BaseTest:27 - Date : 21-Mar-2021
+ 2022-02-09 21:23:40,492  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:40,492  INFO [main] BaseTest:45 - Execution required is no , skipping the test
+ 2022-02-09 21:23:47,003  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:47,003  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersEmptyMobileNumberAndValidPassword
+ 2022-02-09 21:23:47,004  INFO [main] BaseTest:27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+ 2022-02-09 21:23:47,004  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:23:47,005  INFO [main] BaseTest:27 - Execution Required : no
+ 2022-02-09 21:23:47,005  INFO [main] BaseTest:27 - TestCaseName : whenUserEntersEmptyMobileNumberAndValidPassword
+ 2022-02-09 21:23:47,005  INFO [main] BaseTest:27 - Date : 23-Mar-2021
+ 2022-02-09 21:23:47,006  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:23:47,006  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:47,007  INFO [main] BaseTest:45 - Execution required is no , skipping the test
+ 2022-02-09 21:23:53,366  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:53,367  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersValidMobileNumberAndEmptyPassword
+ 2022-02-09 21:23:53,368  INFO [main] BaseTest:27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+ 2022-02-09 21:23:53,369  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:23:53,370  INFO [main] BaseTest:27 - Execution Required : no
+ 2022-02-09 21:23:53,370  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:23:53,371  INFO [main] BaseTest:27 - TestCaseName : whenUserEntersValidMobileNumberAndEmptyPassword
+ 2022-02-09 21:23:53,372  INFO [main] BaseTest:27 - Date : 24-Dec-2021
+ 2022-02-09 21:23:53,372  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:23:53,373  INFO [main] BaseTest:45 - Execution required is no , skipping the test
+ 2022-02-09 21:24:00,319  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:24:00,320  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserSearchProduct
+ 2022-02-09 21:24:00,321  INFO [main] BaseTest:27 - Expected Title : Oneplus Bluetooth- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+ 2022-02-09 21:24:00,322  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:24:00,322  INFO [main] BaseTest:27 - Description : Assertion done on the title of the page
+ 2022-02-09 21:24:00,324  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:24:00,324  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:24:00,325  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:24:00,325  INFO [main] BaseTest:27 - TestCaseName : whenUserSearchProduct
+ 2022-02-09 21:24:00,326  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:24:00,326  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:24:23,556  INFO [main] BaseTest:51 - Search button was clicked button
+ 2022-02-09 21:24:29,775  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:24:29,776  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserWishlistProduct
+ 2022-02-09 21:24:29,776  INFO [main] BaseTest:27 - Expected Title : My Wishlist (1)
+ 2022-02-09 21:24:29,778  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:24:29,779  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:24:29,781  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:24:29,781  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:24:29,781  INFO [main] BaseTest:27 - TestCaseName : whenUserWishlistProduct
+ 2022-02-09 21:24:29,782  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:24:29,783  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:25:04,259  INFO [main] BaseTest:99 - Wishlist button was clicked button
+ 2022-02-09 21:25:11,702  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:25:11,703  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserRemoveProductFromWishlist
+ 2022-02-09 21:25:11,703  INFO [main] BaseTest:27 - Expected Title : Empty Wishlist
+ 2022-02-09 21:25:11,703  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:25:11,704  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:25:11,704  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:25:11,706  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:25:11,706  INFO [main] BaseTest:27 - TestCaseName : whenUserRemoveProductFromWishlist
+ 2022-02-09 21:25:11,707  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:25:11,708  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:25:26,218  INFO [main] BaseTest:142 - Remove Wishlist button was clicked 
+ 2022-02-09 21:25:34,707  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:25:34,707  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserClickOrders
+ 2022-02-09 21:25:34,708  INFO [main] BaseTest:27 - Expected Title : Flipkart.com: Your Order History
+ 2022-02-09 21:25:34,709  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:25:34,709  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:25:34,711  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:25:34,712  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:25:34,713  INFO [main] BaseTest:27 - TestCaseName : whenUserClickOrders
+ 2022-02-09 21:25:34,714  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:25:34,715  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:25:52,021  INFO [main] BaseTest:185 - Myorder button was clicked 
+ 2022-02-09 21:26:00,409  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:26:00,410  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserClickSuperCoins
+ 2022-02-09 21:26:00,411  INFO [main] BaseTest:27 - Expected Title : Flipkart SuperCoins – Re-usable rewards awarded by Flipkart on every Order! | Flipkart.com
+ 2022-02-09 21:26:00,414  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:26:00,416  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:26:00,417  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:26:00,419  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:26:00,420  INFO [main] BaseTest:27 - TestCaseName : whenUserClickSuperCoins
+ 2022-02-09 21:26:00,422  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:26:00,423  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:26:22,570  INFO [main] BaseTest:229 - Myorder button was clicked button
+ 2022-02-09 21:26:34,888  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:26:34,889  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserClickFlipkartLogo
+ 2022-02-09 21:26:34,890  INFO [main] BaseTest:27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+ 2022-02-09 21:26:34,891  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:26:34,892  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:26:34,893  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:26:34,894  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:26:34,894  INFO [main] BaseTest:27 - TestCaseName : whenUserClickFlipkartLogo
+ 2022-02-09 21:26:34,895  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:26:34,896  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:26:56,846  INFO [main] BaseTest:279 - Flipkart logo was clicked button
+ 2022-02-09 21:27:09,168  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:27:09,169  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserClickFlipkartPlusZone
+ 2022-02-09 21:27:09,170  INFO [main] BaseTest:27 - Expected Title : Flipkart Plus – The Ultimate Rewards Program for Flipkart Customers | Flipkart.com
+ 2022-02-09 21:27:09,171  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:27:09,172  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:27:09,173  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:27:09,175  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:27:09,177  INFO [main] BaseTest:27 - TestCaseName : whenUserClickFlipkartPlusZone
+ 2022-02-09 21:27:09,178  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:27:09,179  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:27:35,616  INFO [main] BaseTest:328 - Flipkart logo was clicked
+ 2022-02-09 21:27:50,171  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:27:50,171  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserClickCoupons
+ 2022-02-09 21:27:50,172  INFO [main] BaseTest:27 - Expected Title : TERMS AND CONDITIONS 
+ 2022-02-09 21:27:50,173  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:27:50,173  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:27:50,174  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:27:50,175  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:27:50,176  INFO [main] BaseTest:27 - TestCaseName : whenUserClickCoupons
+ 2022-02-09 21:27:50,177  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:27:50,178  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:28:07,648  INFO [main] BaseTest:372 - Flipkart coupons was clicked 
+ 2022-02-09 21:28:07,648  INFO [main] BaseTest:373 - Terms and conditions button was clicked
+ 2022-02-09 21:28:19,389  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:28:19,390  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserClickNotifications
+ 2022-02-09 21:28:19,391  INFO [main] BaseTest:27 - Expected Title : All caught up!
+ 2022-02-09 21:28:19,392  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:28:19,392  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:28:19,393  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:28:19,393  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:28:19,394  INFO [main] BaseTest:27 - TestCaseName : whenUserClickNotifications
+ 2022-02-09 21:28:19,395  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:28:19,395  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:28:37,543  INFO [main] BaseTest:418 - Flipkart Notification button was clicked 
+ 2022-02-09 21:28:55,281  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:28:55,282  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserClicksInTheEar
+ 2022-02-09 21:28:55,283  INFO [main] BaseTest:27 - Expected Title : In the Ear
+ 2022-02-09 21:28:55,284  INFO [main] BaseTest:27 - Working : yes
+ 2022-02-09 21:28:55,285  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:28:55,286  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:28:55,286  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:28:55,287  INFO [main] BaseTest:27 - TestCaseName : whenUserClicksInTheEar
+ 2022-02-09 21:28:55,288  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:28:55,289  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:29:21,603  INFO [main] BaseTest:467 - Filter In The Ear was clicked 
+ 2022-02-09 21:29:33,184  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:29:33,185  INFO [main] BaseTest:21 - Test Data For Worksheet Name AddToCartPageData And For Test Case whenUserAddsProductToCart
+ 2022-02-09 21:29:33,185  INFO [main] BaseTest:27 - Expected Title : Shopping Cart | Flipkart.com
+ 2022-02-09 21:29:33,186  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:29:33,186  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:29:33,187  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:29:33,187  INFO [main] BaseTest:27 - TestCaseName : whenUserAddsProductToCart
+ 2022-02-09 21:29:33,188  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:29:33,189  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:30:09,915  INFO [main] BaseTest:61 - Add to cart button was clicked button was clicked
+ 2022-02-09 21:30:16,292  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:30:16,293  INFO [main] BaseTest:21 - Test Data For Worksheet Name AddToCartPageData And For Test Case whenUserRemoveProductFromCart
+ 2022-02-09 21:30:16,294  INFO [main] BaseTest:27 - Expected Title : Your cart is empty!
+ 2022-02-09 21:30:16,294  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:30:16,294  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:30:16,295  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:30:16,295  INFO [main] BaseTest:27 - TestCaseName : whenUserRemoveProductFromCart
+ 2022-02-09 21:30:16,296  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:30:16,296  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:30:56,449  INFO [main] BaseTest:112 - Remove button was clicked button was clicked
+ 2022-02-09 21:31:11,603  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 21:31:11,603  INFO [main] BaseTest:21 - Test Data For Worksheet Name AddToCartPageData And For Test Case whenUserClickSaveForLater
+ 2022-02-09 21:31:11,604  INFO [main] BaseTest:27 - Expected Title : Saved For Later (1)
+ 2022-02-09 21:31:11,605  INFO [main] BaseTest:27 - ProductSearch : oneplus bluetooth 
+ 2022-02-09 21:31:11,605  INFO [main] BaseTest:27 - Execution Required : yes
+ 2022-02-09 21:31:11,606  INFO [main] BaseTest:27 - Username : 9785281395
+ 2022-02-09 21:31:11,607  INFO [main] BaseTest:27 - TestCaseName : whenUserClickSaveForLater
+ 2022-02-09 21:31:11,608  INFO [main] BaseTest:27 - Password : anuj@2905
+ 2022-02-09 21:31:11,608  INFO [main] BaseTest:33 - ----------------------------------------------------------------------
+ 2022-02-09 21:31:51,781  INFO [main] BaseTest:168 - Save for later button was clicked 
+ 

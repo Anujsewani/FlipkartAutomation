@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="26" passed="15" failed="2" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T15:52:28Z" name="Suite" finished-at="2022-02-09T16:01:55Z" duration-ms="567358">
+    <groups>
+      <group name="validLogin">
+        <method signature="AddToCartTest.AddProductToCart()[pri:18, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" name="AddProductToCart" class="com.SeleniumExitTest.tests.AddToCartTest"/>
+        <method signature="AddToCartTest.RemoveProductFromCart()[pri:19, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" name="RemoveProductFromCart" class="com.SeleniumExitTest.tests.AddToCartTest"/>
+        <method signature="AddToCartTest.SaveForLater()[pri:20, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" name="SaveForLater" class="com.SeleniumExitTest.tests.AddToCartTest"/>
+        <method signature="HomeTest.flipkartCoupons()[pri:15, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="flipkartCoupons" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.flipkartFilterType()[pri:17, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="flipkartFilterType" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.flipkartLogo()[pri:13, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="flipkartLogo" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.flipkartNotifications()[pri:16, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="flipkartNotifications" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.flipkartPlusZone()[pri:14, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="flipkartPlusZone" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.myOrders()[pri:11, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="myOrders" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.productSearch()[pri:8, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="productSearch" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.removeWishlistProduct()[pri:10, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="removeWishlistProduct" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.superCoin()[pri:12, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="superCoin" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.wishlistProduct()[pri:9, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="wishlistProduct" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="LoginTest.validLogin()[pri:2, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" name="validLogin" class="com.SeleniumExitTest.tests.LoginTest"/>
+        <method signature="LogoutTest.logout()[pri:1, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586]" name="logout" class="com.SeleniumExitTest.tests.LogoutTest"/>
+      </group> <!-- validLogin -->
+      <group name="abc">
+        <method signature="HomeTest.myOrders()[pri:11, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="myOrders" class="com.SeleniumExitTest.tests.HomeTest"/>
+        <method signature="HomeTest.superCoin()[pri:12, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" name="superCoin" class="com.SeleniumExitTest.tests.HomeTest"/>
+      </group> <!-- abc -->
+      <group name="invalidLogin">
+        <method signature="LoginTest.emptyPassword()[pri:7, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" name="emptyPassword" class="com.SeleniumExitTest.tests.LoginTest"/>
+        <method signature="LoginTest.emptyUsername()[pri:6, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" name="emptyUsername" class="com.SeleniumExitTest.tests.LoginTest"/>
+        <method signature="LoginTest.emptyUsernameAndEmptyPassword()[pri:5, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" name="emptyUsernameAndEmptyPassword" class="com.SeleniumExitTest.tests.LoginTest"/>
+        <method signature="LoginTest.invalidPassword()[pri:4, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" name="invalidPassword" class="com.SeleniumExitTest.tests.LoginTest"/>
+        <method signature="LoginTest.invalidUsername()[pri:3, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" name="invalidUsername" class="com.SeleniumExitTest.tests.LoginTest"/>
+      </group> <!-- invalidLogin -->
+    </groups>
+    <test started-at="2022-02-09T15:52:28Z" name="Test" finished-at="2022-02-09T16:01:55Z" duration-ms="567358">
+      <class name="com.SeleniumExitTest.tests.AddToCartTest">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T15:59:27Z" name="initializeWebDriver" finished-at="2022-02-09T15:59:29Z" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T15:59:29Z" name="openUrl" finished-at="2022-02-09T15:59:33Z" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="AddProductToCart()[pri:18, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T15:59:33Z" name="AddProductToCart" finished-at="2022-02-09T16:00:09Z" duration-ms="36740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:00:09Z" name="closeBrowser" finished-at="2022-02-09T16:00:11Z" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProductToCart status=SUCCESS method=AddToCartTest.AddProductToCart()[pri:18, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:00:09Z" name="attachScreenshot" finished-at="2022-02-09T16:00:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProductToCart status=SUCCESS method=AddToCartTest.AddProductToCart()[pri:18, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:00:11Z" name="initializeWebDriver" finished-at="2022-02-09T16:00:13Z" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:00:13Z" name="openUrl" finished-at="2022-02-09T16:00:16Z" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="RemoveProductFromCart()[pri:19, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:00:16Z" name="RemoveProductFromCart" finished-at="2022-02-09T16:01:01Z" duration-ms="45264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveProductFromCart -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:01:01Z" name="attachScreenshot" finished-at="2022-02-09T16:01:01Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RemoveProductFromCart status=SUCCESS method=AddToCartTest.RemoveProductFromCart()[pri:19, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:01:01Z" name="closeBrowser" finished-at="2022-02-09T16:01:02Z" duration-ms="1052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RemoveProductFromCart status=SUCCESS method=AddToCartTest.RemoveProductFromCart()[pri:19, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:01:02Z" name="initializeWebDriver" finished-at="2022-02-09T16:01:04Z" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:01:04Z" name="openUrl" finished-at="2022-02-09T16:01:11Z" duration-ms="6983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="SaveForLater()[pri:20, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:01:11Z" name="SaveForLater" finished-at="2022-02-09T16:01:53Z" duration-ms="41794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveForLater -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:01:53Z" name="closeBrowser" finished-at="2022-02-09T16:01:55Z" duration-ms="1727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SaveForLater status=SUCCESS method=AddToCartTest.SaveForLater()[pri:20, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702]" started-at="2022-02-09T16:01:53Z" name="attachScreenshot" finished-at="2022-02-09T16:01:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SaveForLater status=SUCCESS method=AddToCartTest.SaveForLater()[pri:20, instance:com.SeleniumExitTest.tests.AddToCartTest@64337702] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.SeleniumExitTest.tests.AddToCartTest -->
+      <class name="com.SeleniumExitTest.tests.LogoutTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586]" started-at="2022-02-09T15:52:28Z" name="setExtent" finished-at="2022-02-09T15:52:28Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586]" started-at="2022-02-09T15:52:28Z" name="initializeWebDriver" finished-at="2022-02-09T15:52:31Z" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586]" started-at="2022-02-09T15:52:31Z" name="openUrl" finished-at="2022-02-09T15:52:36Z" duration-ms="5350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="logout()[pri:1, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586]" started-at="2022-02-09T15:52:36Z" name="logout" finished-at="2022-02-09T15:52:46Z" duration-ms="10264" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUJSEWANI', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUJSEWANI', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+at org.openqa.selenium.json.Json.toJson(Json.java:42)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at com.SeleniumExitTest.pages.LogoutPage.clickProfile(LogoutPage.java:26)
+at com.SeleniumExitTest.tests.LogoutTest.logout(LogoutTest.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUJSEWANI', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+at org.openqa.selenium.json.Json.toJson(Json.java:44)
+... 35 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+... 47 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUJSEWANI', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0db7fb808141caa3f617437adb6c4b02
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+... 52 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586]" started-at="2022-02-09T15:52:46Z" name="attachScreenshot" finished-at="2022-02-09T15:52:49Z" duration-ms="2806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=FAILURE method=LogoutTest.logout()[pri:1, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586]" started-at="2022-02-09T15:52:49Z" name="closeBrowser" finished-at="2022-02-09T15:52:51Z" duration-ms="2180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=FAILURE method=LogoutTest.logout()[pri:1, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.SeleniumExitTest.tests.LogoutTest@3f2ef586]" started-at="2022-02-09T16:01:55Z" name="endReport" finished-at="2022-02-09T16:01:55Z" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.SeleniumExitTest.tests.LogoutTest -->
+      <class name="com.SeleniumExitTest.tests.LoginTest">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:52:51Z" name="initializeWebDriver" finished-at="2022-02-09T15:52:53Z" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:52:53Z" name="openUrl" finished-at="2022-02-09T15:52:57Z" duration-ms="3470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="validLogin()[pri:2, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:52:57Z" name="validLogin" finished-at="2022-02-09T15:53:00Z" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:00Z" name="attachScreenshot" finished-at="2022-02-09T15:53:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:2, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:00Z" name="closeBrowser" finished-at="2022-02-09T15:53:02Z" duration-ms="1914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:2, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:02Z" name="initializeWebDriver" finished-at="2022-02-09T15:53:04Z" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:04Z" name="openUrl" finished-at="2022-02-09T15:53:09Z" duration-ms="4386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="invalidUsername()[pri:3, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:09Z" name="invalidUsername" finished-at="2022-02-09T15:53:13Z" duration-ms="4277" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[3]/span[1]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUJSEWANI', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6a8c4301a5b5e89d141f9893fe399cc
+*** Element info: {Using=xpath, value=html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[3]/span[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[3]/span[1]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUJSEWANI', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6a8c4301a5b5e89d141f9893fe399cc
+*** Element info: {Using=xpath, value=html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[3]/span[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.getText(Unknown Source)
+at com.SeleniumExitTest.tests.LoginTest.invalidUsername(LoginTest.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:13Z" name="attachScreenshot" finished-at="2022-02-09T15:53:14Z" duration-ms="1098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUsername status=FAILURE method=LoginTest.invalidUsername()[pri:3, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:14Z" name="closeBrowser" finished-at="2022-02-09T15:53:17Z" duration-ms="2707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUsername status=FAILURE method=LoginTest.invalidUsername()[pri:3, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:17Z" name="initializeWebDriver" finished-at="2022-02-09T15:53:20Z" duration-ms="3414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:20Z" name="openUrl" finished-at="2022-02-09T15:53:27Z" duration-ms="6889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="invalidPassword()[pri:4, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:27Z" name="invalidPassword" finished-at="2022-02-09T15:53:34Z" duration-ms="6683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:34Z" name="attachScreenshot" finished-at="2022-02-09T15:53:34Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPassword status=SUCCESS method=LoginTest.invalidPassword()[pri:4, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:34Z" name="closeBrowser" finished-at="2022-02-09T15:53:35Z" duration-ms="943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPassword status=SUCCESS method=LoginTest.invalidPassword()[pri:4, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:35Z" name="initializeWebDriver" finished-at="2022-02-09T15:53:37Z" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:37Z" name="openUrl" finished-at="2022-02-09T15:53:40Z" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="emptyUsernameAndEmptyPassword()[pri:5, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:40Z" name="emptyUsernameAndEmptyPassword" finished-at="2022-02-09T15:53:40Z" duration-ms="13" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.SeleniumExitTest.utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:46)
+at com.SeleniumExitTest.tests.LoginTest.emptyUsernameAndEmptyPassword(LoginTest.java:160)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameAndEmptyPassword -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:40Z" name="attachScreenshot" finished-at="2022-02-09T15:53:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyUsernameAndEmptyPassword status=SKIP method=LoginTest.emptyUsernameAndEmptyPassword()[pri:5, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:40Z" name="closeBrowser" finished-at="2022-02-09T15:53:41Z" duration-ms="874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyUsernameAndEmptyPassword status=SKIP method=LoginTest.emptyUsernameAndEmptyPassword()[pri:5, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:41Z" name="initializeWebDriver" finished-at="2022-02-09T15:53:44Z" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:44Z" name="openUrl" finished-at="2022-02-09T15:53:47Z" duration-ms="2706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="emptyUsername()[pri:6, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:47Z" name="emptyUsername" finished-at="2022-02-09T15:53:47Z" duration-ms="8" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.SeleniumExitTest.utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:46)
+at com.SeleniumExitTest.tests.LoginTest.emptyUsername(LoginTest.java:197)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:47Z" name="attachScreenshot" finished-at="2022-02-09T15:53:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyUsername status=SKIP method=LoginTest.emptyUsername()[pri:6, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:47Z" name="closeBrowser" finished-at="2022-02-09T15:53:48Z" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyUsername status=SKIP method=LoginTest.emptyUsername()[pri:6, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:48Z" name="initializeWebDriver" finished-at="2022-02-09T15:53:50Z" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:50Z" name="openUrl" finished-at="2022-02-09T15:53:53Z" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="emptyPassword()[pri:7, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:53Z" name="emptyPassword" finished-at="2022-02-09T15:53:53Z" duration-ms="12" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.SeleniumExitTest.utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:46)
+at com.SeleniumExitTest.tests.LoginTest.emptyPassword(LoginTest.java:234)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:53Z" name="attachScreenshot" finished-at="2022-02-09T15:53:53Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyPassword status=SKIP method=LoginTest.emptyPassword()[pri:7, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.LoginTest@751d3241]" started-at="2022-02-09T15:53:53Z" name="closeBrowser" finished-at="2022-02-09T15:53:54Z" duration-ms="958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyPassword status=SKIP method=LoginTest.emptyPassword()[pri:7, instance:com.SeleniumExitTest.tests.LoginTest@751d3241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.SeleniumExitTest.tests.LoginTest -->
+      <class name="com.SeleniumExitTest.tests.HomeTest">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:53:54Z" name="initializeWebDriver" finished-at="2022-02-09T15:53:55Z" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:53:55Z" name="openUrl" finished-at="2022-02-09T15:54:00Z" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="productSearch()[pri:8, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:54:00Z" name="productSearch" finished-at="2022-02-09T15:54:23Z" duration-ms="23244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearch -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:54:23Z" name="attachScreenshot" finished-at="2022-02-09T15:54:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productSearch status=SUCCESS method=HomeTest.productSearch()[pri:8, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:54:23Z" name="closeBrowser" finished-at="2022-02-09T15:54:24Z" duration-ms="768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productSearch status=SUCCESS method=HomeTest.productSearch()[pri:8, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:54:24Z" name="initializeWebDriver" finished-at="2022-02-09T15:54:25Z" duration-ms="1588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:54:25Z" name="openUrl" finished-at="2022-02-09T15:54:29Z" duration-ms="3855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="wishlistProduct()[pri:9, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:54:29Z" name="wishlistProduct" finished-at="2022-02-09T15:55:04Z" duration-ms="34529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistProduct -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:04Z" name="attachScreenshot" finished-at="2022-02-09T15:55:04Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=HomeTest.wishlistProduct()[pri:9, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:04Z" name="closeBrowser" finished-at="2022-02-09T15:55:05Z" duration-ms="816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=HomeTest.wishlistProduct()[pri:9, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:05Z" name="initializeWebDriver" finished-at="2022-02-09T15:55:07Z" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:07Z" name="openUrl" finished-at="2022-02-09T15:55:11Z" duration-ms="4279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="removeWishlistProduct()[pri:10, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:11Z" name="removeWishlistProduct" finished-at="2022-02-09T15:55:26Z" duration-ms="14576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWishlistProduct -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:26Z" name="attachScreenshot" finished-at="2022-02-09T15:55:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeWishlistProduct status=SUCCESS method=HomeTest.removeWishlistProduct()[pri:10, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:26Z" name="closeBrowser" finished-at="2022-02-09T15:55:27Z" duration-ms="1473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeWishlistProduct status=SUCCESS method=HomeTest.removeWishlistProduct()[pri:10, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:27Z" name="initializeWebDriver" finished-at="2022-02-09T15:55:30Z" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:30Z" name="openUrl" finished-at="2022-02-09T15:55:34Z" duration-ms="4368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="myOrders()[pri:11, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:34Z" name="myOrders" finished-at="2022-02-09T15:55:52Z" duration-ms="17325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myOrders -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:52Z" name="attachScreenshot" finished-at="2022-02-09T15:55:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myOrders status=SUCCESS method=HomeTest.myOrders()[pri:11, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:52Z" name="closeBrowser" finished-at="2022-02-09T15:55:52Z" duration-ms="927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myOrders status=SUCCESS method=HomeTest.myOrders()[pri:11, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:52Z" name="initializeWebDriver" finished-at="2022-02-09T15:55:56Z" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:55:56Z" name="openUrl" finished-at="2022-02-09T15:56:00Z" duration-ms="4271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="superCoin()[pri:12, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:56:00Z" name="superCoin" finished-at="2022-02-09T15:56:27Z" duration-ms="27171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superCoin -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:56:27Z" name="attachScreenshot" finished-at="2022-02-09T15:56:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=superCoin status=SUCCESS method=HomeTest.superCoin()[pri:12, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:56:27Z" name="closeBrowser" finished-at="2022-02-09T15:56:28Z" duration-ms="901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=superCoin status=SUCCESS method=HomeTest.superCoin()[pri:12, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:56:28Z" name="initializeWebDriver" finished-at="2022-02-09T15:56:30Z" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:56:30Z" name="openUrl" finished-at="2022-02-09T15:56:34Z" duration-ms="4082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="flipkartLogo()[pri:13, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:56:34Z" name="flipkartLogo" finished-at="2022-02-09T15:57:01Z" duration-ms="26979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartLogo -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:01Z" name="attachScreenshot" finished-at="2022-02-09T15:57:01Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartLogo status=SUCCESS method=HomeTest.flipkartLogo()[pri:13, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:01Z" name="closeBrowser" finished-at="2022-02-09T15:57:02Z" duration-ms="872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartLogo status=SUCCESS method=HomeTest.flipkartLogo()[pri:13, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:02Z" name="initializeWebDriver" finished-at="2022-02-09T15:57:05Z" duration-ms="2542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:05Z" name="openUrl" finished-at="2022-02-09T15:57:09Z" duration-ms="3886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="flipkartPlusZone()[pri:14, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:09Z" name="flipkartPlusZone" finished-at="2022-02-09T15:57:40Z" duration-ms="31468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartPlusZone -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:40Z" name="attachScreenshot" finished-at="2022-02-09T15:57:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartPlusZone status=SUCCESS method=HomeTest.flipkartPlusZone()[pri:14, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:40Z" name="closeBrowser" finished-at="2022-02-09T15:57:41Z" duration-ms="1158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartPlusZone status=SUCCESS method=HomeTest.flipkartPlusZone()[pri:14, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:41Z" name="initializeWebDriver" finished-at="2022-02-09T15:57:44Z" duration-ms="2652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:44Z" name="openUrl" finished-at="2022-02-09T15:57:50Z" duration-ms="5722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="flipkartCoupons()[pri:15, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:57:50Z" name="flipkartCoupons" finished-at="2022-02-09T15:58:12Z" duration-ms="22566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartCoupons -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:12Z" name="closeBrowser" finished-at="2022-02-09T15:58:13Z" duration-ms="858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartCoupons status=SUCCESS method=HomeTest.flipkartCoupons()[pri:15, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:12Z" name="attachScreenshot" finished-at="2022-02-09T15:58:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartCoupons status=SUCCESS method=HomeTest.flipkartCoupons()[pri:15, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:13Z" name="initializeWebDriver" finished-at="2022-02-09T15:58:15Z" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:15Z" name="openUrl" finished-at="2022-02-09T15:58:19Z" duration-ms="3695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="flipkartNotifications()[pri:16, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:19Z" name="flipkartNotifications" finished-at="2022-02-09T15:58:42Z" duration-ms="23426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartNotifications -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:42Z" name="attachScreenshot" finished-at="2022-02-09T15:58:42Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartNotifications status=SUCCESS method=HomeTest.flipkartNotifications()[pri:16, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:42Z" name="closeBrowser" finished-at="2022-02-09T15:58:44Z" duration-ms="2175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartNotifications status=SUCCESS method=HomeTest.flipkartNotifications()[pri:16, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:44Z" name="initializeWebDriver" finished-at="2022-02-09T15:58:49Z" duration-ms="4795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:49Z" name="openUrl" finished-at="2022-02-09T15:58:55Z" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="flipkartFilterType()[pri:17, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:58:55Z" name="flipkartFilterType" finished-at="2022-02-09T15:59:26Z" duration-ms="31377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartFilterType -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:59:26Z" name="attachScreenshot" finished-at="2022-02-09T15:59:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartFilterType status=SUCCESS method=HomeTest.flipkartFilterType()[pri:17, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3]" started-at="2022-02-09T15:59:26Z" name="closeBrowser" finished-at="2022-02-09T15:59:27Z" duration-ms="845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartFilterType status=SUCCESS method=HomeTest.flipkartFilterType()[pri:17, instance:com.SeleniumExitTest.tests.HomeTest@76c7beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.SeleniumExitTest.tests.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

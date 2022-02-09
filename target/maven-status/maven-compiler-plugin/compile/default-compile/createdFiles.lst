@@ -1,0 +1,6 @@
+com\SeleniumExitTest\pages\AddToCart.class
+com\SeleniumExitTest\pages\HomePage.class
+com\SeleniumExitTest\pages\LoginPage.class
+com\SeleniumExitTest\pages\ScreenShots.class
+com\SeleniumExitTest\pages\LogoutPage.class
+com\SeleniumExitTest\pages\SwitchWindow.class

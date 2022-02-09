@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="20" failures="4" name="TestSuite" time="395.844" errors="0" skipped="3">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.1+13"/>
+    <property name="sun.boot.library.path" value="C:\.Net &amp; Java Software\Open JKD -11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\anujsewani\eclipse-workspace\SeleniumExitTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\anujsewani\eclipse-workspace\SeleniumExitTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.1+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANUJSE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\.Net &amp; Java Software\Open JKD -11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\.Net &amp; Java Software\Open JKD -11\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\apache-maven-3.8.3\bin;C:\Program Files (x86)\dotnet\;C:\Users\anujsewani\AppData\Local\Android\Sdk\tools;C:\Users\anujsewani\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\anujsewani\AppData\Local\Android\Sdk\tools\bin;D:\Program Files\Android\Android Studio\jre\bin;C:\Users\anujsewani\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Program Files\Python310;C:\Program Files\Python310\Scripts;C:\Users\anujsewani\AppData\Local\Microsoft\WindowsApps;C:\Users\anujsewani\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;C:\Users\anujsewani\.dotnet\tools;C:\Users\anujsewani\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.3\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\anujsewani"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="anujsewani"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="C:\.Net &amp; Java Software\Open JKD -11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.SeleniumExitTest.tests.LogoutTest" name="logout" time="22.918"/>
+  <testcase classname="com.SeleniumExitTest.tests.LoginTest" name="validLogin" time="2.32"/>
+  <testcase classname="com.SeleniumExitTest.tests.LoginTest" name="invalidUsername" time="3.455">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[3]/span[1]&quot;}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANUJSEWANI&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01da1a5bcff8eedea6771ab18d16cee4
+*** Element info: {Using=xpath, value=html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[3]/span[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[3]/span[1]&quot;}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANUJSEWANI&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01da1a5bcff8eedea6771ab18d16cee4
+*** Element info: {Using=xpath, value=html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[3]/span[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.SeleniumExitTest.tests.LoginTest.invalidUsername(LoginTest.java:93)
+</failure>
+    <system-out>02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersInvalidMobileNumberAndValidPassword
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 27 - Working : yes
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 27 - Execution Required : yes
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 27 - Message : Your username or password is incorrect
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 27 - Username : 9461164813
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 27 - TestCaseName : whenUserEntersInvalidMobileNumberAndValidPassword
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 27 - Date : 17-June-2021
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 27 - Password : anuj@2905
+02-09-2022 20:12:34 CommonUtils.java INFO  [main] tests.BaseTest 33 - ----------------------------------------------------------------------
+</system-out>
+    <system-err>Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 4033
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2022 8:12:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.SeleniumExitTest.tests.LoginTest" name="invalidPassword" time="5.421"/>
+  <testcase classname="com.SeleniumExitTest.tests.LoginTest" name="emptyUsernameAndEmptyPassword" time="0.013">
+    <skipped/>
+    <system-out>02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersEmptyMobileNumberAndEmptyPassword
+02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!
+02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 27 - Working : yes
+02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 27 - Execution Required : no
+02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 27 - TestCaseName : whenUserEntersEmptyMobileNumberAndEmptyPassword
+02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 27 - Date : 21-Mar-2021
+02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 33 - ----------------------------------------------------------------------
+02-09-2022 20:12:54 CommonUtils.java INFO  [main] tests.BaseTest 45 - Execution required is no , skipping the test
+</system-out>
+    <system-err>Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 31331
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2022 8:12:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.SeleniumExitTest.tests.LoginTest" name="emptyUsername" time="0.008">
+    <skipped/>
+    <system-out>02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersEmptyMobileNumberAndValidPassword
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 27 - Working : yes
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 27 - Execution Required : no
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 27 - TestCaseName : whenUserEntersEmptyMobileNumberAndValidPassword
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 27 - Date : 23-Mar-2021
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 27 - Password : anuj@2905
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 33 - ----------------------------------------------------------------------
+02-09-2022 20:12:59 CommonUtils.java INFO  [main] tests.BaseTest 45 - Execution required is no , skipping the test
+</system-out>
+    <system-err>Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 12593
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2022 8:12:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.SeleniumExitTest.tests.LoginTest" name="emptyPassword" time="0.009">
+    <skipped/>
+    <system-out>02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name LogInPageData And For Test Case whenUserEntersValidMobileNumberAndEmptyPassword
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 27 - Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 27 - Working : yes
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 27 - Execution Required : no
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 27 - Username : 9785281395
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 27 - TestCaseName : whenUserEntersValidMobileNumberAndEmptyPassword
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 27 - Date : 24-Dec-2021
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 33 - ----------------------------------------------------------------------
+02-09-2022 20:13:04 CommonUtils.java INFO  [main] tests.BaseTest 45 - Execution required is no , skipping the test
+</system-out>
+    <system-err>Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 5273
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2022 8:13:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="productSearch" time="20.664"/>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="wishlistProduct" time="34.416"/>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="removeWishlistProduct" time="12.532">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;._3Juh7R&quot;}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANUJSEWANI&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0196f6291dbe8e85f8251c7d078ed80b
+*** Element info: {Using=class name, value=_3Juh7R}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;._3Juh7R&quot;}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANUJSEWANI&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0196f6291dbe8e85f8251c7d078ed80b
+*** Element info: {Using=class name, value=_3Juh7R}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.SeleniumExitTest.tests.HomeTest.removeWishlistProduct(HomeTest.java:143)
+</failure>
+    <system-out>02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name HomePageData And For Test Case whenUserRemoveProductFromWishlist
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 27 - Expected Title : Empty Wishlist
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 27 - Working : yes
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 27 - ProductSearch : oneplus bluetooth 
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 27 - Execution Required : yes
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 27 - Username : 9785281395
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 27 - TestCaseName : whenUserRemoveProductFromWishlist
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 27 - Password : anuj@2905
+02-09-2022 20:14:17 CommonUtils.java INFO  [main] tests.BaseTest 33 - ----------------------------------------------------------------------
+02-09-2022 20:14:29 HomeTest.java INFO  [main] tests.BaseTest 142 - Remove Wishlist button was clicked 
+</system-out>
+    <system-err>Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 11864
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2022 8:14:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="myOrders" time="15.85"/>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="superCoin" time="25.702"/>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="flipkartLogo" time="24.76"/>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="flipkartPlusZone" time="29.968"/>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="flipkartCoupons" time="21.46"/>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="flipkartNotifications" time="21.332"/>
+  <testcase classname="com.SeleniumExitTest.tests.HomeTest" name="flipkartFilterType" time="30.203"/>
+  <testcase classname="com.SeleniumExitTest.tests.AddToCartTest" name="AddProductToCart" time="31.334"/>
+  <testcase classname="com.SeleniumExitTest.tests.AddToCartTest" name="RemoveProductFromCart" time="39.522">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]&quot;}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANUJSEWANI&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be0e355db1c3bd74ac62bc5afd0fefe3
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]&quot;}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANUJSEWANI&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be0e355db1c3bd74ac62bc5afd0fefe3
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.SeleniumExitTest.pages.AddToCart.removeProduct(AddToCart.java:74)
+	at com.SeleniumExitTest.tests.AddToCartTest.RemoveProductFromCart(AddToCartTest.java:110)
+</failure>
+    <system-out>02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name AddToCartPageData And For Test Case whenUserRemoveProductFromCart
+02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 27 - Expected Title : Your cart is empty!
+02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 27 - ProductSearch : oneplus bluetooth 
+02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 27 - Execution Required : yes
+02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 27 - Username : 9785281395
+02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 27 - TestCaseName : whenUserRemoveProductFromCart
+02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 27 - Password : anuj@2905
+02-09-2022 20:18:40 CommonUtils.java INFO  [main] tests.BaseTest 33 - ----------------------------------------------------------------------
+</system-out>
+    <system-err>Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 25199
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2022 8:18:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.SeleniumExitTest.tests.AddToCartTest" name="SaveForLater" time="53.957">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;	/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]&quot;}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANUJSEWANI&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e57bc1cb39b1479d4391bc55fdb4f26
+*** Element info: {Using=xpath, value=	/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;	/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]&quot;}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANUJSEWANI&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ANUJSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e57bc1cb39b1479d4391bc55fdb4f26
+*** Element info: {Using=xpath, value=	/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.SeleniumExitTest.pages.AddToCart.saveForLater(AddToCart.java:79)
+	at com.SeleniumExitTest.tests.AddToCartTest.SaveForLater(AddToCartTest.java:165)
+</failure>
+    <system-out>02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name AddToCartPageData And For Test Case whenUserClickSaveForLater
+02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 27 - Expected Title : Saved For Later (1)
+02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 27 - ProductSearch : oneplus bluetooth 
+02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 27 - Execution Required : yes
+02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 27 - Username : 9785281395
+02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 27 - TestCaseName : whenUserClickSaveForLater
+02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 27 - Password : anuj@2905
+02-09-2022 20:20:08 CommonUtils.java INFO  [main] tests.BaseTest 33 - ----------------------------------------------------------------------
+</system-out>
+    <system-err>Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 22944
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2022 8:19:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
